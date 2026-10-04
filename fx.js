@@ -10,7 +10,7 @@
 
   var root = document.documentElement;
   var KEY = "dove-theme";
-  var LOADER_TEXT = "bon mood hien";          // ← modifie ici le texte d'ouverture
+var LOADER_TEXT = "Anitché hein";          // ← modifie ici le texte d'ouverture
   var reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   function getSaved() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }

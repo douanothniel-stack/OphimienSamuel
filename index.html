@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr" data-page="home">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Portfolio de Douan Van Othniel Elysée — systèmes électroniques, informatique, FTTH, IA et développement web." />
+<title>DOVE.Tech</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link rel="stylesheet" href="style.css"/>
+<link rel="stylesheet" href="fx.css"/>
+<script src="fx.js"></script>
+</head>
+<body>
+
+<div id="particles-js"></div>
+
+<header id="site-header">
+  <a href="#accueil" class="dove-logo" aria-label="DOVE">
+    <span class="dove-text">DOVE</span>
+    <span class="dove-orbit dove-orbit-a"><span class="dove-electron"></span></span>
+    <span class="dove-orbit dove-orbit-b"><span class="dove-electron"></span></span>
+    <span class="dove-orbit dove-orbit-c"><span class="dove-electron"></span></span>
+  </a>
+
+  <div class="header-actions">
+    <a href="#contact" class="nav-cta">Me contacter</a>
+    <button id="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<nav id="nav" aria-label="Navigation principale" aria-hidden="true">
+  <a href="#accueil" style="--i:0">Accueil</a>
+  <a href="#profil" style="--i:1">À propos</a>
+  <a href="#competences" style="--i:2">Compétences</a>
+  <a href="#services" style="--i:3">Services</a>
+  <a href="#projets" style="--i:4">Projets</a>
+  <a href="#contact" style="--i:5">Contact</a>
+  <p class="nav-foot" style="--i:6">douanothniel@gmail.com · Abidjan, Côte d'Ivoire</p>
+</nav>
+
+<section class="home" id="accueil">
+  <div class="home-text" data-reveal="right">
+    <h3>HELLO</h3>
+    <h1>Je suis <span>OTHNIEL</span></h1>
+    <h2><span id="typing"></span></h2>
+    <p>Étudiant en BTS Systèmes Électroniques et Informatique au Groupe CEFIAT Abidjan, passionné par l'électronique, la fibre optique FTTH, le développement web, les réseaux et l'intelligence artificielle.</p>
+    <div class="buttons">
+      <a href="#projets" class="btn">Mes projets</a>
+      <a href="#contact" class="btn2">Me contacter</a>
+      <a href="assets/cv.pdf" download class="btn-cv"><span class="btn-cv-icon">⬇</span>Télécharger mon CV</a>
+    </div>
+  </div>
+  <div class="home-image" data-reveal="zoom">
+    <img src="assets/photo.jpg" alt="Othniel" onerror="this.src='https://placehold.co/370x370/0b1224/00d9ff?text=OTHNIEL'">
+  </div>
+</section>
+
+<section class="about" id="profil">
+  <h2 class="title">À propos</h2>
+  <div class="about-container">
+    <div class="about-image" data-reveal="right">
+      <img src="assets/photo2.jpg" alt="Othniel" onerror="this.src='https://placehold.co/320x400/0b1224/00d9ff?text=OTHNIEL'">
+      <div class="signature">Othniel</div>
+    </div>
+    <div class="about-text" data-reveal="left">
+      <h3>Douan Van Othniel Elysée</h3>
+      <p>Je construis petit à petit un profil qui relie l'électronique, les réseaux et le logiciel — parce que j'aime comprendre les choses de bout en bout, pas juste une partie.</p>
+      <p>Après un BTS en Systèmes Électroniques et Informatique au <b>Groupe CEFIAT Abidjan</b>, j'apprends surtout en faisant : FTTH, développement web, Linux, automatisation et intelligence artificielle. Basé à Abidjan / Yopougon, Côte d'Ivoire.</p>
+      <blockquote class="personal-quote">« J'apprends mieux quand je construis vraiment les choses — pas juste en les lisant. »</blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="skills" id="competences">
+  <h2 class="title">Compétences</h2>
+  <div class="skill"><h3>Électronique &amp; Systèmes</h3><div class="bar"><span class="b1"></span></div></div>
+  <div class="skill"><h3>Réseaux &amp; FTTH</h3><div class="bar"><span class="b2"></span></div></div>
+  <div class="skill"><h3>Développement Web</h3><div class="bar"><span class="b3"></span></div></div>
+  <div class="skill"><h3>IA &amp; Automatisation</h3><div class="bar"><span class="b4"></span></div></div>
+  <div class="skill"><h3>Linux &amp; Environnement</h3><div class="bar"><span class="b5"></span></div></div>
+  <div class="skill"><h3>Edit Vidéo</h3><div class="bar"><span class="b6"></span></div></div>
+</section>
+
+<section class="services" id="services">
+  <h2 class="title">Mes Services</h2>
+  <div class="cards">
+    <a class="card" href="service/developpement-web/index.html" data-reveal="zoom"><i class="fas fa-code"></i><h3>Développement Web</h3><p>Sites et interfaces responsive, animées et modernes.</p><span class="service-link">Découvrir le service <i class="fas fa-arrow-right"></i></span></a>
+    <a class="card" href="service/reseaux/index.html" data-reveal="zoom"><i class="fas fa-network-wired"></i><h3>Réseaux</h3><p>Installation et configuration réseaux.</p><span class="service-link">Découvrir le service <i class="fas fa-arrow-right"></i></span></a>
+    <a class="card" href="service/ia-automatisation/index.html" data-reveal="zoom"><i class="fas fa-robot"></i><h3>IA &amp; Automatisation</h3><p>Agents IA et workflows connectés avec des outils comme n8n.</p><span class="service-link">Découvrir le service <i class="fas fa-arrow-right"></i></span></a>
+    <a class="card" href="service/maintenance-informatique/index.html" data-reveal="zoom"><i class="fas fa-laptop"></i><h3>Maintenance Informatique</h3><p>Diagnostic, dépannage et entretien de parc informatique.</p><span class="service-link">Découvrir le service <i class="fas fa-arrow-right"></i></span></a>
+  </div>
+</section>
+
+<section class="projects" id="projets">
+  <h2 class="title">Mes Projets</h2>
+  <div class="project-container">
+   <a href="projet/index_ftth.html"><div class="project" data-reveal="up">
+      <img src="assets/photo_fibre.jpg">
+      <div class="overlay"><div><h3>Fibre Optique</h3><p>Installation de liaison fibre optique FTTH </p></div></div>
+    </div></a>
+   <a href="projet/index_web.html"><div class="project" data-reveal="up">
+      <img src="assets/photo_web.jpg">
+      <div class="overlay"><div><h3>Developpement Web</h3><p>Site web responsive et professionnel</p></div></div>
+    </div></a>
+   <a href="projet/index_ai.html"> <div class="project" data-reveal="up">
+      <img src="assets/photo_ia.jpg">
+      <div class="overlay"><div><h3>Agent IA &amp; workflows</h3><p>Automatisation des tâches avec n8n </p></div></div>
+    </div></a>
+  </div>
+</section>
+
+<section id="contact">
+  <h2 class="title">Contact</h2>
+  <p class="contact-intro">Un projet, un stage, une opportunité ? N'hésitez pas à m'écrire je répondrai avec plaisir.</p>
+  <div class="contact-data">
+    <div><small>EMAIL</small><a href="mailto:douanothniel@gmail.com">douanothniel@gmail.com</a></div>
+    <div><small>LOCALISATION</small><span>Abidjan / Côte d'Ivoire</span></div>
+    <div><small>WHATSAPP</small><a href="https://wa.me/2250767407014" target="_blank" rel="noopener">+225 07 67 40 70 14</a></div>
+  </div>
+  <form id="contact-form">
+    <input type="text" name="nom" placeholder="Nom" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <textarea name="message" placeholder="Votre message" required></textarea>
+    <input type="text" name="site_web" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <button type="submit">Envoyer</button>
+    <p class="form-feedback" id="form-feedback"></p>
+  </form>
+</section>
+
+<footer>
+  <h2>DOVE</h2>
+  <p>Othniel Douan, tout droit réservé © <span id="year"></span></p>
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/2250767407014" target="_blank" rel="noopener" aria-label="Me contacter sur WhatsApp">
+  <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16.02 3C9.4 3 4 8.37 4 15c0 2.23.62 4.32 1.7 6.12L4 29l8.08-1.65A11.9 11.9 0 0 0 16.02 27C22.65 27 28 21.63 28 15S22.65 3 16.02 3Zm0 21.7c-1.9 0-3.68-.5-5.23-1.4l-.37-.22-4.8.98.98-4.68-.24-.38A9.63 9.63 0 0 1 6.3 15c0-5.36 4.37-9.7 9.72-9.7 5.36 0 9.72 4.34 9.72 9.7 0 5.36-4.36 9.7-9.72 9.7Zm5.32-7.27c-.29-.15-1.72-.85-1.99-.95-.27-.1-.46-.15-.66.15-.19.29-.76.95-.93 1.14-.17.2-.34.22-.63.07-.29-.15-1.24-.46-2.36-1.46-.87-.78-1.46-1.74-1.63-2.03-.17-.29-.02-.45.13-.6.13-.13.29-.34.44-.51.15-.17.19-.29.29-.49.1-.2.05-.37-.02-.51-.07-.15-.66-1.59-.9-2.18-.24-.57-.48-.5-.66-.51h-.56c-.19 0-.51.07-.78.37-.27.29-1.02 1-1.02 2.44s1.05 2.83 1.19 3.03c.15.2 2.06 3.15 5 4.42.7.3 1.24.48 1.67.62.7.22 1.34.19 1.84.11.56-.08 1.72-.7 1.96-1.38.24-.68.24-1.26.17-1.38-.07-.12-.26-.19-.55-.34Z"/></svg>
+</a>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
